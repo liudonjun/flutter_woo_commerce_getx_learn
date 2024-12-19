@@ -45,8 +45,8 @@ class _MainViewGetX extends GetView<MainController> {
         return true;
       },
       child: Scaffold(
-        extendBody: true,
-        resizeToAvoidBottomInset: false,
+        extendBody: true, // 底部导航栏
+        resizeToAvoidBottomInset: false, // 底部导航栏
         // 导航栏
         bottomNavigationBar: GetBuilder<MainController>(
           id: 'navigation',
